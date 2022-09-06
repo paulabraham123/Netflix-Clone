@@ -1,0 +1,44 @@
+.planScreen {
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.planScreen__sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.planScreen__subscribe {
+  margin-top: auto;
+  margin-bottom: 10px;
+  background-color: rgb(184, 15, 3);
+  padding: 8px;
+  color: white;
+  width: 120px;
+  height: 35px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.planScreen__plans {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.planScreen__plan {
+  color: gray;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.planScreen__quality {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(250, 0, 0, 0.705);
+}
